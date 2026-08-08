@@ -8,10 +8,10 @@ android {
     namespace = "com.igorwojda.showcase.app"
 
     defaultConfig {
-        applicationId = "com.igorwojda.showcase"
+        applicationId = "com.igorwojda.myshowcase"
 
         versionCode = 1
-        versionName = "0.0.1" // SemVer (Major.Minor.Patch)
+        versionName = "0.1.2" // SemVer (Major.Minor.Patch)
 
         buildConfigFieldFromGradleProperty(project, "apiBaseUrl")
         buildConfigFieldFromGradleProperty(project, "apiToken")
@@ -31,4 +31,8 @@ dependencies {
     implementation(projects.feature.album)
     implementation(projects.feature.settings)
     implementation(projects.feature.favourite)
+}
+
+base {
+    archivesName.set("myshowcase")
 }
