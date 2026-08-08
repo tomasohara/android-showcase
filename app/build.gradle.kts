@@ -8,7 +8,7 @@ android {
     namespace = "com.igorwojda.showcase.app"
 
     defaultConfig {
-        # note: just need to change applicationId to make app unique
+        // note: just need to change applicationId to make app unique
         applicationId = "com.igorwojda.myshowcase"
 
         versionCode = 1
@@ -35,6 +35,6 @@ dependencies {
 }
 
 base {
-    # note: base name for artifacts
+    // note: base name for artifacts
     archivesName.set("myshowcase")
 }
