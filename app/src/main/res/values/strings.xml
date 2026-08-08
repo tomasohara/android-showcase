@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Showcase</string>
+    <string name="app_name">MyShowcase</string>
 
     <string name="bottom_navigation_albums">Albums</string>
     <string name="bottom_navigation_favorites">Favorites</string>
